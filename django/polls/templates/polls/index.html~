@@ -1,0 +1,1 @@
+<li><a href="{% url 'polls:detail' poll.id %}">{{ poll.question }}</a></li>
